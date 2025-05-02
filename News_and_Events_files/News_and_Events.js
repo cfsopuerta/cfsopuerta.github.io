@@ -5,5 +5,5 @@ setTransparentGifURL('Media/transparent.gif');function applyEffects()
 function hostedOnDM()
 {return false;}
 function onPageLoad()
-{loadMozillaCSS('News_&_Events_files/News_&_EventsMoz.css')
+{loadMozillaCSS('News_and_Events_files/News_and_EventsMoz.css')
 adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
